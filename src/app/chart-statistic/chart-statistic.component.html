@@ -1,0 +1,5 @@
+<input type="radio" value="month" name="type" (change)="handleChange('month')"   > Theo tháng
+<input type="radio" value="quarter" name="type" (change)="handleChange('quarter')" > Theo Quý
+<div *ngIf="chart">
+    <canvas id="myChart" width="400" height="400"></canvas>
+</div>
